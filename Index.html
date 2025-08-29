@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Belajar</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Website Belajar aprianto</h1>
+    <p>
+      Tempat belajar online gratis
+    </p>
+  </header>
+
+  <nav>
+    <a href="#home">Beranda</a>
+    <a href="#materi">Materi</a>
+    <a href="#latihan">Latihan</a>
+    <a href="#tentang">Tentang</a>
+  </nav>
+
+  <div class="container">
+    <div id="home" class="card">
+      <h2>Selamat Datang</h2>
+      <p>
+        Website ini dibuat untuk membantu Anda belajar pemrograman dan teknologi lainnya secara gratis.
+      </p>
+    </div>
+
+    <div id="materi" class="card">
+      <h2>Materi Pembelajaran</h2>
+      <ul>
+        <li><a href="#">HTML Dasar</a></li>
+        <li><a href="#">CSS Dasar</a></li>
+        <li><a href="#">JavaScript Pengantar</a></li>
+        <li><a href="#">Pemrograman Python</a></li>
+      </ul>
+    </div>
+
+    <div id="latihan" class="card">
+      <h2>Latihan</h2>
+      <p>
+        Berikut beberapa latihan untuk menguji pemahaman Anda:
+      </p>
+      <ol>
+        <li>Buat halaman HTML sederhana</li>
+        <li>Tambahkan styling dengan CSS</li>
+        <li>Buat fungsi sederhana dengan JavaScript</li>
+      </ol>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      &copy; 2025 Website Belajar. Dibuat dengan NIAT.
+    </p>
+  </footer>
+</body>
+</html>
